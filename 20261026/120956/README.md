@@ -1,3 +1,8 @@
+프로그래머스 120956 옹알이
+백트래킹
+
+```python
+
 dic_words = {}
 
 def make_word(string, words, check):
@@ -24,3 +29,5 @@ def solution(babbling):
             print(w)
             answer += 1
     return answer
+
+```
